@@ -29,7 +29,7 @@ class LabelImageViewController: UIViewController {
         view.addSubview(bottomView)
         
         testLabel = UILabel()
-        testLabel.text = "あああああああ"
+        testLabel.text = "あああああああaaaaaaaaaaaaaaaaaaaaaaaaaあああああああaaaaaaaaaaaaaaaaaaaaaaaaa"
         testLabel.font = .systemFont(ofSize: 21)
         testLabel.textAlignment = .left
         testLabel.textColor = .red
@@ -49,8 +49,14 @@ class LabelImageViewController: UIViewController {
         constraint.isActive = true
         print(constraint.priority)
         
+        testImage = UIImageView(image: UIImage(named: "test"))
+        testImage.contentMode = .scaleAspectFit
+        testImage.translatesAutoresizingMaskIntoConstraints = false
+        bottomView.addSubview(testImage)
+        
+        
         let constraints: [NSLayoutConstraint] = [
-            topView.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor),
+            topView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             topView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             topView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             topView.heightAnchor.constraint(equalToConstant: 100),
@@ -63,6 +69,11 @@ class LabelImageViewController: UIViewController {
             testLabel.topAnchor.constraint(equalTo: topView.topAnchor),
             testLabel.trailingAnchor.constraint(equalTo: topView.trailingAnchor),
             testLabel.leadingAnchor.constraint(equalTo: topView.leadingAnchor),
+            
+            testImage.topAnchor.constraint(equalTo: bottomView.topAnchor),
+            testImage.trailingAnchor.constraint(equalTo: bottomView.trailingAnchor),
+            testImage.leadingAnchor.constraint(equalTo: bottomView.leadingAnchor),
+            testImage.bottomAnchor.constraint(equalTo: bottomView.bottomAnchor),
             
         ]
         NSLayoutConstraint.activate(constraints)

@@ -15,6 +15,11 @@ class ViewController: UIViewController {
 //        self.present(nextView, animated: true, completion: nil)
         
     }
+    
+    @IBAction func goScroll3(_ sender: Any) {
+        self.navigationController?.pushViewController(Scroll3ViewController(), animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
