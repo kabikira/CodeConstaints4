@@ -19,7 +19,13 @@ class ViewController: UIViewController {
     @IBAction func goScroll3(_ sender: Any) {
         self.navigationController?.pushViewController(Scroll3ViewController(), animated: true)
     }
+    @IBAction func goScroll4(_ sender: Any) {
+        self.navigationController?.pushViewController(Scroll4ViewController(), animated: true)
+    }
     
+    @IBAction func goStack1(_ sender: Any) {
+        self.navigationController?.pushViewController(Stack1ViewController(), animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

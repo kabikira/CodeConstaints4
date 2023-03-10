@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B275F6F29BB2FB600406A7C /* Stack1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B275F6E29BB2FB600406A7C /* Stack1ViewController.swift */; };
 		3BA68C0329B4317500EEC082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA68C0229B4317500EEC082 /* AppDelegate.swift */; };
 		3BA68C0529B4317500EEC082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA68C0429B4317500EEC082 /* SceneDelegate.swift */; };
 		3BA68C0729B4317500EEC082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA68C0629B4317500EEC082 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B275F6E29BB2FB600406A7C /* Stack1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack1ViewController.swift; sourceTree = "<group>"; };
 		3BA68BFF29B4317500EEC082 /* CodeConstaints4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeConstaints4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA68C0229B4317500EEC082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BA68C0429B4317500EEC082 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B275F6D29BB2F8E00406A7C /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				3B275F6E29BB2FB600406A7C /* Stack1ViewController.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
 		3BA68BF629B4317500EEC082 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +95,7 @@
 				3BA68C0229B4317500EEC082 /* AppDelegate.swift */,
 				3BA68C0429B4317500EEC082 /* SceneDelegate.swift */,
 				3BA68C1D29B62DAC00EEC082 /* ContainerView */,
+				3B275F6D29BB2F8E00406A7C /* Stack */,
 				3BA68C2C29B8353600EEC082 /* Scroll */,
 				3BA68C1629B435DF00EEC082 /* LabelImage */,
 				3BA68C0829B4317500EEC082 /* Main.storyboard */,
@@ -123,6 +134,7 @@
 				3BA68C3129B838FD00EEC082 /* Scroll1 */,
 				3BA68C3229B8390F00EEC082 /* Scroll2 */,
 				3BA68C3929B9BB0600EEC082 /* Scroll3 */,
+				3BA68C3E29BAA61D00EEC082 /* Scroll4 */,
 			);
 			path = Scroll;
 			sourceTree = "<group>";
@@ -149,9 +161,16 @@
 			isa = PBXGroup;
 			children = (
 				3BA68C3A29B9BB3400EEC082 /* Scroll3ViewController.swift */,
-				3BA68C3C29BA229700EEC082 /* Scroll4ViewController.swift */,
 			);
 			path = Scroll3;
+			sourceTree = "<group>";
+		};
+		3BA68C3E29BAA61D00EEC082 /* Scroll4 */ = {
+			isa = PBXGroup;
+			children = (
+				3BA68C3C29BA229700EEC082 /* Scroll4ViewController.swift */,
+			);
+			path = Scroll4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +257,7 @@
 				3BA68C3029B8357400EEC082 /* Scroll1ViewController.swift in Sources */,
 				3BA68C2329B62E5100EEC082 /* ContainerSub1ViewController.swift in Sources */,
 				3BA68C3D29BA229800EEC082 /* Scroll4ViewController.swift in Sources */,
+				3B275F6F29BB2FB600406A7C /* Stack1ViewController.swift in Sources */,
 				3BA68C0529B4317500EEC082 /* SceneDelegate.swift in Sources */,
 				3BA68C3629B8397600EEC082 /* Scroll2ViewController.swift in Sources */,
 				3BA68C1A29B4364F00EEC082 /* LabelImageViewController.swift in Sources */,
