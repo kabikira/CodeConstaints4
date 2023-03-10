@@ -46,8 +46,8 @@ class Scroll4ViewController: UIViewController {
             scrollView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
             scrollView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
             // scrollContentsViewの制約
-            scrollContentsView.topAnchor.constraint(equalTo: view.topAnchor),
-            scrollContentsView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            scrollContentsView.topAnchor.constraint(equalTo: scrollView.contentLayoutGuide.topAnchor),
+            scrollContentsView.bottomAnchor.constraint(equalTo: scrollView.contentLayoutGuide.bottomAnchor),
             scrollContentsView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             scrollContentsView.leadingAnchor.constraint(equalTo: scrollView.frameLayoutGuide.leadingAnchor),
             scrollContentsView.widthAnchor.constraint(equalTo: scrollView.contentLayoutGuide.widthAnchor, multiplier: 1),
