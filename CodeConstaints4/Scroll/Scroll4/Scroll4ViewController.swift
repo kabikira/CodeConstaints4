@@ -17,6 +17,7 @@ class Scroll4ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         scrollView = UIScrollView()
+        scrollView.isPagingEnabled = true
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(scrollView)
         
@@ -48,8 +49,8 @@ class Scroll4ViewController: UIViewController {
             // scrollContentsViewの制約
             scrollContentsView.topAnchor.constraint(equalTo: scrollView.contentLayoutGuide.topAnchor),
             scrollContentsView.bottomAnchor.constraint(equalTo: scrollView.contentLayoutGuide.bottomAnchor),
-            scrollContentsView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            scrollContentsView.leadingAnchor.constraint(equalTo: scrollView.frameLayoutGuide.leadingAnchor),
+            scrollContentsView.trailingAnchor.constraint(equalTo: scrollView.contentLayoutGuide.trailingAnchor),
+            scrollContentsView.leadingAnchor.constraint(equalTo: scrollView.contentLayoutGuide.leadingAnchor),
             scrollContentsView.widthAnchor.constraint(equalTo: scrollView.contentLayoutGuide.widthAnchor, multiplier: 1),
             // pageViewの制約
             page1View.widthAnchor.constraint(equalTo: scrollView.frameLayoutGuide.widthAnchor, multiplier: 1),

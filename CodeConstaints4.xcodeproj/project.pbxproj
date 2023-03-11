@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3B275F6F29BB2FB600406A7C /* Stack1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B275F6E29BB2FB600406A7C /* Stack1ViewController.swift */; };
+		3B275F9229BCB5D200406A7C /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B275F9129BCB5D200406A7C /* ScrollViewController.swift */; };
 		3BA68C0329B4317500EEC082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA68C0229B4317500EEC082 /* AppDelegate.swift */; };
 		3BA68C0529B4317500EEC082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA68C0429B4317500EEC082 /* SceneDelegate.swift */; };
 		3BA68C0729B4317500EEC082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA68C0629B4317500EEC082 /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		3B275F6E29BB2FB600406A7C /* Stack1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack1ViewController.swift; sourceTree = "<group>"; };
+		3B275F9129BCB5D200406A7C /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		3BA68BFF29B4317500EEC082 /* CodeConstaints4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeConstaints4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA68C0229B4317500EEC082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BA68C0429B4317500EEC082 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 				3B275F6E29BB2FB600406A7C /* Stack1ViewController.swift */,
 			);
 			path = Stack;
+			sourceTree = "<group>";
+		};
+		3B275F9029BCB5AF00406A7C /* Scroll5 */ = {
+			isa = PBXGroup;
+			children = (
+				3B275F9129BCB5D200406A7C /* ScrollViewController.swift */,
+			);
+			path = Scroll5;
 			sourceTree = "<group>";
 		};
 		3BA68BF629B4317500EEC082 = {
@@ -135,6 +145,7 @@
 				3BA68C3229B8390F00EEC082 /* Scroll2 */,
 				3BA68C3929B9BB0600EEC082 /* Scroll3 */,
 				3BA68C3E29BAA61D00EEC082 /* Scroll4 */,
+				3B275F9029BCB5AF00406A7C /* Scroll5 */,
 			);
 			path = Scroll;
 			sourceTree = "<group>";
@@ -251,6 +262,7 @@
 				3BA68C2129B62E3200EEC082 /* ContainerMainViewController.swift in Sources */,
 				3BA68C2B29B74F7400EEC082 /* ContainerSub3ViewController.swift in Sources */,
 				3BA68C0729B4317500EEC082 /* ViewController.swift in Sources */,
+				3B275F9229BCB5D200406A7C /* ScrollViewController.swift in Sources */,
 				3BA68C0329B4317500EEC082 /* AppDelegate.swift in Sources */,
 				3BA68C2529B62E5E00EEC082 /* ContainerSub2ViewController.swift in Sources */,
 				3BA68C3B29B9BB3400EEC082 /* Scroll3ViewController.swift in Sources */,
